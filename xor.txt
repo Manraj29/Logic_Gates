@@ -1,0 +1,1 @@
+The XOR gate is a digital logic gate that gives a true (1 or HIGH) output when  the number of true inputs is odd. An XOR gate implements an exclusive or;       that is ,a true output results if one, and only one, of the inputs to the gate  is true.

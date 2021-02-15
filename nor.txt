@@ -1,0 +1,1 @@
+The NOR gate is a logic gate which gives a positive output only when both       inputs are negative. Like NAND gates, NOR gates are so-called 'universal gates' that can be combined to form any other kind of logic gate.

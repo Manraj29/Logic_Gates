@@ -1,0 +1,1 @@
+The XNOR gate is a digital logic gate whose function is the logical complement  of the exclusive OR (XOR) gate. A high output (1) results if both of the inputs to the gate are the same. If one but not both inputs are high (1), a low output (0) results.

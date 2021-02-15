@@ -1,0 +1,1 @@
+The  OR gate is a digital logic gate that implements logical  disjunction -     it behaves according to the adjacent truth table. A HIGH output (1) results if  one or both the inputs to the gate are HIGH (1). If neither input is high, a    LOW output (0) results.In another sense, the function of OR effectively finds   the maximum between two binary digits.
