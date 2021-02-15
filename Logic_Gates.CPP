@@ -26,73 +26,13 @@ class logic
 	    {
 		settextstyle(font, HORIZ_DIR, 1);
 		setcolor(9);
-		outtextxy(x,y,"                Micro-Project of Group12[46-49]");
+		outtextxy(x,y,"                Micro-Project");
 
 	    }
 	    //Menu
 	    cout << "\n\n\n\t\t  Welcome To Logic Gates Concept Application";
 	    cout << "\n1. AND Gate\n2. OR Gate\n3. NOT Gate\n4. NAND Gate\n5. NOR Gate\n6. EXOR Gate\n7. EXNOR Gate";
-	    cout << "\n8. Information of Group\n9. EXIT";
-
-
-	}
-	//function getinfo() of group members
-	void getinfo()
-	{
-		int gd=DETECT,gm;
-		initgraph(&gd,&gm,"C:\\TC\\BGI");
-		int font=10;
-		int x=15;
-		int y=15;
-		settextstyle(font, HORIZ_DIR, 1);
-		setcolor(10);
-		outtextxy(x,y,"                      Information");
-
-		    font=6;
-		    settextstyle(font, 0, 2);
-
-		    y=y+35;
-		    setcolor(3);
-		    outtextxy(x,y,"                        Compiled By GROUP 12(46-49)");
-		    y=y+35;
-
-		    setcolor(15);
-		    outtextxy(x,y, "                  ===========================");
-		    y=y+35;
-
-		    font=4;
-		    settextstyle(font, 0, 2);
-		    setcolor(13);
-		    outtextxy(x,y,"Members:");
-		    y=y+35;
-		    outtextxy(x,y," Roll no | Name");
-		    y=y+35;
-		    font= 3;
-		    setcolor(5);
-		    settextstyle(font, 0, 2);
-
-		    outtextxy(x,y,"46      | Tejashree Likhar");
-		    y=y+30;
-		    outtextxy(x,y,"47      | Manraj Singh Virdi");
-		    y=y+30;
-		    outtextxy(x,y,"48      | Dhara Bhatia");
-		    y=y+30;
-		    outtextxy(x,y,"49      | Yukta Bhatia");
-		    y=y+40;
-		    font=7;
-		    settextstyle(font, 0, 2);
-
-		    setcolor(YELLOW);
-		    outtextxy(x,y,"              Subject Teacher : Mrs Jaishree Anerao");
-		    y=y+60;
-		    setcolor(15);
-		    font=5;
-		    settextstyle(font, 0, 2);
-
-		    setcolor(11);
-		    outtextxy(x,y,"                          Press Enter to continue...");
-		    y=y+25;
-
+	    cout << "\n8. EXIT";
 	}
 };
 //End of Class Logic.
@@ -675,16 +615,8 @@ int main()
 		getch();
 		system("cls");
 		break;
-
+			
 	    case 8:
-		clrscr();
-		obj.getinfo();
-		getch();
-		system("cls");
-		break;
-
-
-	    case 9:
 		int gd1=DETECT,gm1,x1=15,y1=250;
 		initgraph(&gd1,&gm1,"C:\\TC\\BGI");
 		int font1=  7;
